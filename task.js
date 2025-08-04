@@ -76,9 +76,27 @@ function generateSentence(desc, arr) {
 }
 
 console.log(generateSentence("largest countries", ["China", "India", "USA"]));
-
-
 console.log(generateSentence("best fruits", ["Apples", "Bananas"]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
