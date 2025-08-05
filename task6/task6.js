@@ -5,10 +5,12 @@ const imgs = [
 ]
 
 const container = document.getElementById("container")
-let imagesHTML = ""
 
+
+
+let imagesHTML = "";
 for (let i = 0; i < imgs.length; i++) {
-    imagesHTML += `<img class="team-img" src="${imgs[i]}">`
+  imagesHTML += `<img class="team-img" src="${imgs[i]}">`;
 }
+container.innerHTML = imagesHTML;
 
-container.innerHTML = imagesHTML
