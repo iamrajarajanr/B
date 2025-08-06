@@ -103,4 +103,3 @@ console.log(generateSentence("best fruits", ["Apples", "Bananas"]));
 
 
 
-
