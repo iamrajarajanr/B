@@ -8,7 +8,7 @@ const container = document.getElementById("container")
 
 
 
-let imagesHTML = "";
+
 for (let i = 0; i < imgs.length; i++) {
   imagesHTML += `<img class="team-img" src="${imgs[i]}">`;
 }

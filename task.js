@@ -52,7 +52,7 @@ let data = [
     }
 ]
 
-let inputBtn = document.getElementById("score-btn")
+let inputBtn = document.getElementById("score-btns")
 inputBtn.addEventListener("click", function(){
      console.log(`${data[0].player} Score is ${data[0].score} `);
 })
